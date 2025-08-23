@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tea Shop</title>
     <!-- Google font cdn -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,7 @@
 
     <!-- tailwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <!-- tailwind css v-4 -->
+    <!-- tailwind css v-4(update) -->
     <!-- <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script> -->
 
     <script>
@@ -35,8 +35,39 @@
 </head>
 
 <body>
-    <h2 class="text-4xl font-bold bg-teal-950 text-white py-4 text-center">Hello Bangladesh</h2>
-    <h2 class="text-clifford">Hello Bangladesh</h2>
-    <h2>Hello Bangladesh</h2>
+    <!-- Main Content -->
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+    <!-- Header Section -->
+    <header class="lg:flex pt-20 mb-20">
+        <!-- Text Content -->
+        <div class="mb-5">
+            <h1 class="text-4xl md:text-7xl font-semibold mb-5">
+                It's good <br> tea time at The <br> Tea House
+            </h1>
+            <p class="text-gray-500 w-3/4 mb-5">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+                Your Taste Buds.</p>
+            <button class="bg-gradient-to-r from-orange-500 to-red-500 py-5 px-3 rounded-lg text-white font-bold">
+                Explore More
+                <i class="fa-solid fa-arrow-right text-xl -rotate-45"></i>
+            </button>
+        </div>
+        <!-- Image Content -->
+        <div class="relative ">
+            <!-- image -->
+             <img class="w-full" src="./images/banner.png" alt="">
+            <!-- card -->
+            <div class="flex items-center gap-2 bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg absolute top-48 md:top-96 left-24 md:left-32 lg:left-28">
+                <!-- icon -->
+                 <i class="fa-solid fa-star text-2xl text-amber-500"></i>
+                <!-- Text -->
+                <div class="">
+                    <h2 class="lg:text-2xl font-bold">5.00</h2>
+                    <p class="text-gray-500">Trust Pilot Ratings</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    </main>
 </body>
+
 </html>
